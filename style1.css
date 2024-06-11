@@ -1,0 +1,361 @@
+*{
+    margin:10;
+    padding: 10;
+    font-family: serif;
+    font-size: 10px;
+}
+.container{
+    display: inline-flex;
+    height: 60rem;
+    
+}
+.one{
+    background-color:rgb(14, 43, 39);
+    color: white;
+    width: 50%;
+}
+.one h1{
+    margin-top: 9rem;
+    font-size: 4rem;
+    margin-left: 15rem;
+}
+.one h2{
+    font-size: 3rem;
+    margin-top: -5rem;
+    margin-left: 9rem;
+}
+.one img{
+    margin-top: 1rem;
+    margin-left: 3rem;
+    height: 50px;
+    width: 50px;
+}
+.one p{
+    margin-top:-1rem;
+    font-size: 2.5rem;
+    margin-left: 15rem;
+}
+.two{
+    background-color: rgb(42, 165, 165);
+    width: 50%;
+}
+.two img{
+    text-align: center;
+    margin-top: 15rem;
+    margin-inline-start:13rem;
+    width:450px;
+    height: 450px;
+}
+.one a:link,a:visited{
+    display: inline-block;
+    font-size: 2rem;
+    margin-top: 3rem;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(201, 50, 75);
+    padding: 12px;
+    border-radius: 1px;
+}
+.abt{
+    margin-left: 15rem;
+}
+.get{
+    margin-left: 1rem;
+}
+.sec2{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5rem;
+    height: 60rem;
+}
+.img{
+    margin-top: 8rem;
+    height: 400px;
+    width: 400px;
+}
+.info1 {
+    margin-top: 9rem;
+    margin-left:10%;
+    margin-right:3%;
+}
+.info1 h2{
+    font-size: 3rem;
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+}
+.info1 p{
+    font-size: 4rem;
+    margin-bottom: 4rem;
+}
+.info1 a{
+    margin-bottom: 100%;
+    color:rgb(14, 43, 39);
+    font-size: 2rem;
+    text-decoration: none;
+    background-color: rgb(201, 50, 75);
+    padding: 10px;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    margin-right: 8px;
+}
+.Category{
+    color: white;
+    background-color: rgb(42, 165, 165);
+    height: 60rem;
+    width: 100%;
+    
+}
+.Category h2{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.offers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    gap:50px;
+    margin-top: 7rem;
+    margin-inline-start: -2%;
+}
+.offers img{
+    width: 12rem;
+    height: 12rem;
+}
+.Category p{
+       font-size: 2rem;
+       margin-left: 20rem;
+       padding-top: 10px;
+    }
+.about{
+    margin-left: 10rem;
+    margin-right: 10rem;
+    }
+.about img{
+    width: 80rem;
+    height: 80rem;
+    margin-inline-start: 20rem;
+    margin-top: 2rem;
+}
+.about h2{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: -3rem;
+}
+.about p{
+    font-size: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+    margin-bottom: 6rem;
+}
+.about a{
+    color:rgb(255, 255, 255);
+    font-size: 2rem;
+    text-decoration: none;
+    background-color: rgb(201, 50, 75);
+    padding: 10px;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    margin-inline-start: 55rem;
+}
+.work_one{
+    margin-left: 15rem;
+    margin-right: 10rem;
+    display: flex;
+}
+.work h2{
+    font-size: 3rem;
+    margin-left: -3rem;
+    margin-right: 10rem;
+    margin-top: 5rem;
+}
+.work ul{
+    display:grid;
+    flex-wrap: wrap;
+}
+.work ul li p{
+    margin-left: 20rem;
+    margin-top: -5rem;
+    font-size: 2rem;
+    margin-bottom: -1rem;
+}
+.work ul li span{
+    font-size: 2rem;
+    
+}
+.work ul li{
+    list-style: none;
+}
+.work img{
+    background-color:rgb(14, 43, 39);
+    color: white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 2rem;
+}
+.work_img img{
+    margin-top: 10rem;
+   width: 60rem;
+   height: 40rem;
+}
+.work_one span{
+    color:rgb(201, 50, 75);
+    font-size: 3rem;
+  
+}
+.test {
+    box-sizing: border-box;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2), 10px 10px 10px 10px rgba(0, 0, 0, 0.19);
+    margin-top: 5rem;
+    padding-bottom: 4rem;
+    margin-bottom: 3rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 3rem;
+    position: relative;
+}
+.test i{
+   margin-inline-start: 47%;
+    font-size: 5rem;
+}
+.testimonial h2{
+    text-align: center;
+    margin-top: 8rem;
+    font-size: 3rem;
+}
+.testimonial h3{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 3rem;
+}
+.testimonial p{
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-align: center;
+    margin-right:10%;
+    margin-left: 10%;
+}
+.greater i{
+    font-size: 2rem;
+    background-color:rgb(14, 43, 39);
+    color: white;
+    position: absolute;
+    border-radius: 50%;
+    padding: 22px 22px 22px 22px;
+    margin-inline-start: 97%;
+    margin-top: -7.5rem;
+    cursor: pointer;
+}
+.lesser i{
+    font-size: 2rem;
+    background-color:rgb(14, 43, 39);
+    color: white;
+    position: absolute;
+    border-radius: 50%;
+    padding: 22px 22px 22px 22px;
+    margin-inline-start: -3%;
+    margin-top: -7.5rem;
+    cursor: pointer;
+}
+footer{
+    background-color:rgb(14, 43, 39);
+    color: white;
+    height: 50rem;
+    margin-top: 15rem;
+}
+.container_footer{
+    display: inline-flex;
+    flex-direction: row;
+    margin-inline-start: 5%;
+    margin-right: 5%;
+    margin-top: 8rem;
+}
+footer h2{
+    font-size: 20px;
+    margin-top: 2rem;
+}
+.logo h2{
+    font-size: 4.5rem;
+    margin-top:-8rem;
+    margin-left: 13rem;
+    
+}
+.logo img{
+    margin-inline-start: 5%;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    height: 80px;
+    width: 80px;
+}
+.icons{
+    margin-top: -8rem;
+    margin-right: 5%;
+}
+footer i{
+    float:right;
+    font-size: 3rem;
+    margin-right: 2rem;
+    
+}
+.link {
+    margin-right:8rem;
+}
+.link a{
+    text-decoration:none;
+    color: white;
+    font-size: 2rem;
+    margin-left: 8.5rem;
+}
+.office{
+    margin-right:4rem;
+}
+.office p{
+    flex-wrap: wrap;
+    margin-top:-2rem;
+    font-size: 2rem;
+ }
+.info{
+    margin-right:2rem;
+    margin-top: -0.5rem;
+}
+.info p{
+    margin-right:5rem;
+    font-size: 2rem;
+    margin-top: -1rem;
+}
+.Newsletter input{
+    font-size: 3rem;
+    margin-top:-10rem;
+    margin-bottom: 1rem;
+}
+.Newsletter a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(201, 50, 75);
+    padding: 12px;
+    border-color: white;
+    border-radius: 2px solid;
+    margin-top: 2rem;
+}
+.contact li{
+    list-style: none;
+    display: inline-flex;
+    margin-right: 10rem;
+    font-size: 2rem;
+    margin-inline-start: 13%;
+    margin-top:5rem;
+}
+.contact i{
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+.copy h3{
+    text-align: center;
+    font-size: 2rem;
+    margin-top:0.5rem;
+}
